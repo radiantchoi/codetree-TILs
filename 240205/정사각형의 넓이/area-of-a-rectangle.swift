@@ -1,4 +1,7 @@
 let n = Int(readLine()!)!
 let area = n * n
 
-print(area > 4 ? area : "tiny")
+print(area)
+if n < 5 {
+    print("tiny")
+}
