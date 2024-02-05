@@ -3,7 +3,7 @@ dividing = 1
 result = 0
 
 while True:
-    n /= dividing
+    n //= dividing
     dividing += 1
     result += 1
 
