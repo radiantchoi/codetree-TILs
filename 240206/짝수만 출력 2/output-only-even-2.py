@@ -1,8 +1,3 @@
 b, a = map(int, input().split())
 
-result = []
-while b >= a:
-    result.append(str(b))
-    b -= 2
-
-print(" ".join(result))
+print(" ".join(reversed([str(x) for x in range(a, b+1) if x % 2 == 0])))
