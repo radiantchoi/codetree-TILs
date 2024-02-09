@@ -15,9 +15,10 @@ result = 0
 
 while stack:
     node = stack.pop()
-    visited[node] = True
-    if node > 0:
-        result += 1
+    if not visited[node]:
+        visited[node] = True
+        if node > 0:
+            result += 1
     
     for child in graph[node]:
         if not visited[child]:
