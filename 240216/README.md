@@ -12,7 +12,7 @@
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
-|[Novice High / 정렬 / 병합 정렬](https://www.codetree.ai/missions?missionId=6)|[[연습]병합 정렬 구현](https://www.codetree.ai/missions/6/problems/implement-merge-sort)|![어려움][hard]|![Failed][failed]|[링크](https://github.com/radiantchoi/codetree-TILs/blob/main/240216/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC%20%EA%B5%AC%ED%98%84/implement-merge-sort.py)|
+|[Novice High / 정렬 / 병합 정렬](https://www.codetree.ai/missions?missionId=6)|[[연습]병합 정렬 구현](https://www.codetree.ai/missions/6/problems/implement-merge-sort)|![어려움][hard]|![Passed][passed]|[링크](https://github.com/radiantchoi/codetree-TILs/blob/main/240216/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC%20%EA%B5%AC%ED%98%84/implement-merge-sort.py)|
 
 
 * 획득 경험치: 해설을 보지 않고 푼 문제에 한해 최초 1회 경험치를 획득하실 수 있습니다.
