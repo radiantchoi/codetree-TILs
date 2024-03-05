@@ -27,4 +27,4 @@ for k in 1..<number {
     }
 }
 
-print(dpGrid[number - 1].min()!)
+print(dpGrid[number - 1][0])
