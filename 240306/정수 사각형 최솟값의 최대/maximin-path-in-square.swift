@@ -22,8 +22,8 @@ for j in 1..<n {
 
 for i in 1..<n {
     for j in 1..<n {
-        minGrid[i][j] = min(grid[i][j], max(grid[i-1][j], grid[i][j-1]))
+        minGrid[i][j] = min(grid[i][j], max(minGrid[i-1][j], minGrid[i][j-1]))
     }
 }
 
-print(minGrid[n - 1][n - 1])
+print(minGrid[n-1][n-1])
