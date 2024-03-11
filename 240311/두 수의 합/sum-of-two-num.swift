@@ -17,11 +17,29 @@ for number in numbers {
 
 var result = 0
 
+func triangle(_ number: Int) -> Int {
+    var table = [1]
+    
+    if number > 1 {
+        for n in 2...number {
+            table.append(n + table[n-2])
+        }
+    }
+    
+    return table[table.count - 1]
+}
+
 for number in storage.keys {
     let opposite = orders[1] - number
+    
     if storage[opposite] != nil {
-        let cases = storage[opposite]! * storage[number]!
-        result += cases
+        if number == opposite {
+            result += triangle(number - 1)
+        } else {
+            let cases = storage[opposite]! * storage[number]!
+            result += cases
+        }
+        
         storage[opposite] = 0
         storage[number] = 0
     }
