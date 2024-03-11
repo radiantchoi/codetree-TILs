@@ -17,8 +17,8 @@ for number in numbers {
 var result = [String]()
 
 for wanted in wanteds {
-    if let item = storage[wanted] {
-        result.append(String(item))
+    if let occurence = storage[wanted] {
+        result.append(String(occurence))
     } else {
         result.append("0")
     }
