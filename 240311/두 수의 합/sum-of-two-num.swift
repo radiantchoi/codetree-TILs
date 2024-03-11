@@ -34,7 +34,8 @@ for number in storage.keys {
     
     if storage[opposite] != nil {
         if number == opposite {
-            result += triangle(number - 1)
+            let occurence = storage[number]!
+            result += triangle(occurence - 1)
         } else {
             let cases = storage[opposite]! * storage[number]!
             result += cases
