@@ -1,10 +1,10 @@
 import Foundation
 
 let orderNumber = readLine()!.components(separatedBy: " ").compactMap { Int($0) }
-let numbers = readLine()!.components(separatedBy: " ")
-let wanteds = readLine()!.components(separatedBy: " ")
+let numbers = readLine()!.components(separatedBy: " ").compactMap { Int($0) }
+let wanteds = readLine()!.components(separatedBy: " ").compactMap { Int($0) }
 
-var storage = [String: Int]()
+var storage = [Int: Int]()
 
 for number in numbers {
     if storage[number] != nil {
