@@ -16,4 +16,4 @@ while len(pq) > 1:
         new = abs(first - second)
         heapq.heappush(pq, -new)
 
-print(-heapq.heappop(pq))
+print(-heapq.heappop(pq) if pq else -1)
