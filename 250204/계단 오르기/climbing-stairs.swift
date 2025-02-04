@@ -5,11 +5,11 @@ func stairs(_ number: Int) -> Int {
 
     if number >= 4 {
         for i in 4...number {
-            stairs.append(stairs[i-2] + stairs[i-3])
+            stairs.append((stairs[i-2] + stairs[i-3]) % 10007) 
         }
     }
 
-    return stairs[number] % 10007
+    return stairs[number]
 }
 
 print(stairs(n))
